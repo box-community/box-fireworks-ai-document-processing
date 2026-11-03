@@ -1,0 +1,10 @@
+# The server itself is standard library only. These are what the pipeline needs.
+requests
+box-sdk-gen
+fireworks-ai
+presidio-analyzer
+presidio-anonymizer
+spacy
+
+# After installing, fetch the NLP model Presidio uses:
+#   python -m spacy download en_core_web_sm
